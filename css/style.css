@@ -1,3 +1,8 @@
 h1.title {
 	font-size: 5.75em;
 }
+
+p {
+	text-transform: uppercase;
+}
+
