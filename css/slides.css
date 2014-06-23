@@ -1,0 +1,54 @@
+h1 {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+h1.title {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3.20em;
+	padding-top: 3em;
+}
+
+h2 {
+	position: relative;
+	line-height: 60px;
+	padding: 0;
+}
+
+li::before {
+	list-style-type: none;
+	content: no-open-quote;
+}
+
+img.drunk, img.android {
+	padding-left: 90px;
+}
+
+img.android {
+	padding-top: 5px;
+}
+
+article {
+	width: 100%;
+}
+
+.box {
+	padding-top: 6em;
+	padding-left: 1em;
+}
+
+article.smaller p {
+	font-size: 1.5em;
+	line-height: 50px;
+	letter-spacing:normal;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 50px;
+	letter-spacing:normal;
+}

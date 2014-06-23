@@ -1,272 +1,81 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
 
-	<head>
-		<meta charset="utf-8">
+<!--
+  Google HTML5 slide template
 
-		<title>Tchê Controla</title>
+  Authors Original: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
 
-		<meta name="description" content="Uma app para controlar os gastos de bebida em uma festa">
+  URL: http://code.google.com/p/html5slides/
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  Authors: Morvana Bonin (code and design)
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+-->
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+<html>
+  <head>
+    <title>Tchê Controla</title>
 
-		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-		<script>
-			if( 
-				window.location.search.match( /print-pdf/gi ) ) {
-				var link = document.createElement( 'link' );
-				link.rel = 'stylesheet';
-				link.type = 'text/css';
-				link.href = 'css/print/pdf.css';
-				document.getElementsByTagName( 'head' )[0].appendChild( link );
-			}
-		</script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/slides.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="js/slides.js"></script>
+  </head>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+  <body>
 
-	<body>
+    <section class="slides layout-regular template-default">
+      
+      <article class="biglogo"></article>
 
-		<div class="reveal">
+      <article>
+        <h1>
+          Não passe vergonha!
+        </h1>
+        <img class="drunk" src="images/drunk.jpg" with="400"  height="400"/>
+      </article>
+      
+      <article>
+        <h1> o Grupo </h1>
+        <div class="box">
+          <ul>
+            <li><h2>Alexandre Finger Sobrinho</h2></li>
+            <li><h2>Guilherme Scharlau</h2></li>
+            <li><h2>Jorge Fernando Damasio Leite</h2></li>
+            <li><h2>Morvana Bonin</h2></li>
+            <li><h2>Rodrigo Conceição de Araujo</h2></li> 
+          </ul>
+        </div>
+      </article>
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1 class="title">Tchê Controla</h1>
-				</section>
+      <article>
+        <h1> as Ideias </h1>
+        <div class="box">
+          <ul>
+            <li><h2> - App para saber onde por o lixo</h2></li>
+            <li><h2> - App para saber em qual estação descer</h2></li>
+            <li><h2> - App para controlar gastos com bebida</h2></li> 
+          </ul>
+        </div>
+      </article>
 
-				<section>
-					<h3>
-						A app Tchê Controla foi criada com o intuito de o usuário poder ter o controle de quanto já gastou em uma festa e de quanto ainda pode gastar.
-					</h3>
-				</section>
+      <article class="smaller">
+        <h1> a App </h1>
+          <p>A app Tchê Controla foi escolhida e criada com o intuito de o usuário poder ter o controle de quanto já gastou em uma festa e de quanto ainda pode gastar.</p>
+      </article>
 
-				<!-- Slides verticais - Sobre o grupo -->
-				<section>
-					<section>
-						<h1>Integrantes</h1>
-					</section>
+      <article>
+        <h1>Porque Android?</h1>
+        <p>Android domina 85,1% do mercado de celulares no Brasil</p>
+        Números divulgados pela empresa de consultoria Gartner <br />
+        <img class="android" src="images/android.jpg" with="300"  height="300"/>
+      </article>
 
-				<!-- Sumário com o nome dos integrantes -->
-					<section>
-						<h2>Alexandre Finger Sobrinho</h2>
-						<h2>Guilherme Scharlau</h2>
-						<h2>Jorge Fernando Damasio Leite</h2>
-						<h2>Morvana Bonin</h2>
-						<h2>Rodrigo Conceição de Araujo</h2>
-					</section>
+    </section>
 
-				<!-- Slide para cada integrante poder se apresentar -->
-					<section>
-						<h2>Alexandre Finger Sobrinho</h2>
-						<h3>Funções: GP e Analista</h3>
-						<p>Trabalho em TI há 10 anos</p>
-						<p>Desenvolvedor Delphi há 9 anos, de 2004~2013</p>
-						<p>Desenvolvedor Java há 6 anos, de 2008~2014</p>
-					</section>
-					<section>
-						<h2>Guilherme Scharlau</h2>
-						<h3>Funções: Analista e GP</h3>
-						<p>Experiência com desenvolvimento web desde 2006, trabalhando atualmente com php e desenvenvolvimento front-end.</p>
-					</section>
-					<section>
-						<h2>Jorge Fernando Damasio Leite</h2>
-						<h3>Funções: Desenvolvedor chefe</h3>
-						<p>Desenvolvedor DotNET desde Maio de 2013</p>
-					</section>
-					<section>
-						<h2>Morvana Bonin</h2>
-						<h3>Funções: Desenvolvimento e Suporte</h3>
-						<p>Desenvolvedora PHP, atualmente mais com FrontEnd</p>
-					</section>
-					<section>
-						<h2>Rodrigo Conceição de Araujo</h2>
-						<h3>Funções: Suporte e Desenvolvimento</h3>
-						<p>Desenvolvedor Web desde 2010. Trabalhando atualmente como desenvolvedor backend PHP</p>
-					</section>
-				</section>
-			<!-- 
-				Slides falando sobre os ideias levantadas, a escolhida e o porque da escolha final.
-				Depois de vária ideias debatidas, notamos que a mais interessante e com utilidade relevante 
-				era o que auxiliava ela a ter um controle de gastos sobre o que bebia em festas
-			-->	
-				<section>
-					<h1>O Projeto</h1>
-
-				</section>
-
-				<section>
-					<h1>Visa resolver um problema...</h1>
-				</section>
-				<section>
-					<h2>
-					Sair para um balada com a intenção de gastar apenas <span style='color:yellow'>R$ 80,00</span> 
-					e acabar gastando <span style='color:red'>R$ 230,00 </span>
-					</h2>
-				</section>	
-
-				<section>
-					<h2>Como?</h2>
-					Informando ao vivente o quanto ele já gastou!!!
-				</section>
-
-				<section class="pm-canvas">
-					<img src="img/pmcanvas.jpg"/>
-				</section>
-
-				<section class="pm-canvas">
-					<img src="img/tche_controla_canvas.png"/>
-				</section>
-
-				<section>
-					<h2>Nomes sugeridos</h2>
-					<p> Beer Count<br>
-						Conta Ceva / Conta Breja<br>
-						Cerveja Certa / Breja Certa<br>
-						Breja e Cia.<br>
-						Consumo Certo<br>
-						Me Perdi - Edição Cerveja<br>
-						Tche Controla<br>
-						Nice Beer
-					</p>
-				</section>
-
-				<section>
-					<h2>A ideia final</h2>
-					Desenvolver um aplicativo que auxilie no controle dos gastos em uma festa.<br>
-				</section>
-
-			<!-- -->
-			<!-- Aqui cabe falar sobre o que está no PM Canvas -->
-				<section>
-					<h1>Objetivos</h1>
-				</section>
-
-				<section>
-					<ul>
-						<li>Controle de gasto excessivo</li>
-						<li>Informar o consumo</li>
-					</ul>
-				</section>
-
-			<!-- Slides falando como funciona a app de um modo geral, sua funcionalidade, aqui a chave é explicar como se fosse vender para qualquer pessoa.-->
-				<section>
-					<h1>Definição da solução</h1>
-				</section>
-				<section>
-					<p>
-						A app Tchê Controla tem em seus principios a facilidade no uso, ela está sendo desenvolvida para que seja o mais intuítiva possível, mesmo que mais tarde sejam agregadas maiores e melhores funcionalidades. 
-					</p>
-				</section>
-				<section>
-					<p>
-						Sua outra caracteristica é o histórico de consumo, além de mais tarde poder ser utilizada para outras bebidas que não cerveja.
-					</p>
-				</section>
-
-				<section>
-					<img src="img/analise_swot.png"/>
-				</section>
-
-			<!-- Slides falando sobre as tecnologias usadas na app, desde o modelo E-R, banco de dados e programação-->
-				<section>
-					<h1>Tecnologias e ferramentas</h1>
-				</section>
-				<section>
-			<!-- as menos importantes eu coloquei junto -->
-					Modelo ER <p><i><span style='color:yellow'>Workbench</span></i></p>
-					IDE 	   <p><i><span style='color:yellow'>Eclipse </span></i></p>
-					Logo <p><i><span style='color:yellow'>Corel Draw</span></i></p>
-					Layout        <p><i><span style='color:yellow'>Photoshop</span></i></p>
-				</section>
-				<section>
-			<!-- as mais importantes eu coloquei separado -->
-					<h2>Android</h2>
-				</section>
-				<section>
-					<h2>SQL Lite</h2>
-				</section>
-
-			<!-- Apresentação de metodos utilizados sobre -->
-				<section>
-					<h1>Arquitetura do sistema</h1>
-				</section>
-				<section>
-					<p>Como equipe nos espelhamos em algumas métodologias para construir o projeto, entre elas estão o <span style="color:yellow;font-style:italic">Kanban</span> com a utilização do <span style="color:red;font-style:italic">trello</span> e nos encontramos em um final de semana para trabalhar usando bastante <span style="color:yellow;font-style:italic">pair programming</span>. Trocamos e-mails para comunicação e nas aulas informações e ideias.</p>
-				</section>
-				<section>
-					<p>
-					Para o projeto usamos as ferramentas citadas anteriormente, além da documentação do próprio Android e fóruns para pesquisa e desenvolvimento.
-					</p>
-				</section>
-			<!--Finalização da apresentação, aqui entra tudo que acharmos relevante falar sobre o ocorrido durante a contrução do projeto-->
-				<section>
-					<h1>Andamento do projeto</h1>
-				</section>
-				
-				<section>
-					<img src="img/stories.png"/>
-					<img src="img/done.png"/>
-					<img src="img/sprint1.png"/>
-				</section>
-
-				<section>
-					<img src="img/sprint2.png"/>
-					<img src="img/sprint3.png"/>
-					<img src="img/sprint4.png"/>
-				</section>
-
-				<section>
-					<h1>Perguntas?</h1>
-				</section>
-
-			</div>
-		</div>
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
-
-		<script>
-
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
-
-		</script>
-
-	</body>
+  </body>
 </html>
