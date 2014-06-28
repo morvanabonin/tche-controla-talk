@@ -17,6 +17,8 @@ h2 {
 	position: relative;
 	line-height: 60px;
 	padding: 0;
+	font-weight: normal;
+	color: rgb(102, 102, 102);
 }
 
 li::before {
@@ -24,13 +26,32 @@ li::before {
 	content: no-open-quote;
 }
 
-img.drunk, img.android {
+img{
 	padding-left: 90px;
-}
-
-img.android {
 	padding-top: 5px;
 }
+
+.hello-android {
+	margin: 0 auto;
+	padding-left: 200px;
+}
+
+img.pmc {
+	padding: 180px 80px;
+}
+
+img.pmcanvas-online, img.pmcanvas{
+	padding: 90px 0;
+}
+
+img.inocente {
+	padding: 90px 150px;
+}
+
+img.workbench {
+	padding: 25px 0;
+}
+
 
 article {
 	width: 100%;
