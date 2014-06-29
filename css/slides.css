@@ -48,10 +48,74 @@ img.inocente {
 	padding: 90px 150px;
 }
 
-img.workbench {
+img.workbench, img.trello{
 	padding: 25px 0;
 }
 
+img.trello {
+	margin-left: -35px;
+}
+
+img.sprint1 {
+	position: absolute;
+	z-index: 1;
+	margin-left: 50px;
+}
+
+img.sprint2 {
+	position: absolute;
+	z-index: 2;
+	padding: 30px;
+	margin-left: 140px;
+}
+
+img.sprint3 {
+	position: absolute;
+	z-index: 3;
+	padding: 60px;
+	margin-left: 170px;
+}
+
+img.sprint4 {
+	position: absolute;
+	z-index: 4;
+	padding: 90px;
+	margin-left: 200px;
+}
+
+img.sprint5 {
+	position: absolute;
+	z-index: 4;
+	padding: 120px;
+	margin-left: 230px;
+}
+
+img.sprint6 {
+	position: absolute;
+	z-index: 4;
+	padding: 150px;
+	margin-left: 260px;
+}
+
+img.gitub {
+	padding-top: 100px;
+}
+
+img.fluxograma {
+	position: absolute;
+	display: block;
+	padding: 10px 0;
+	margin-left: -35px;
+	z-index: 1;
+}
+
+img.matriz-swot {
+	position: absolute;
+	display: block;
+	padding: 315px 0;
+	margin-left: 120px;
+	z-index: 2;
+}
 
 article {
 	width: 100%;
@@ -60,6 +124,11 @@ article {
 .box {
 	padding-top: 6em;
 	padding-left: 1em;
+}
+
+.perguntas, .obrigado {
+	text-align: center;
+	padding-top: 230px;
 }
 
 article.smaller p {
